@@ -68,6 +68,18 @@ a:hover {
   color: #d2b48c;
 }
 
+.svg{
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  width: 50em;
+}
+#banner{
+  position: relative;
+  width: 60em;
+  height: 20em;
+  background-color: #000000;
+}
 #header {
   text-align: center;
   background: url('images/forrest.svg') no-repeat top center ,linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
@@ -96,7 +108,7 @@ a:hover {
   width: 100%
 }
 header {
- 
+
   line-height: 1.5;
 }
 header .profile-image {
